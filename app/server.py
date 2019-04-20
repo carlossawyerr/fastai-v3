@@ -8,15 +8,14 @@ from io import BytesIO
 from fastai import *
 from fastai.vision import *
 
-export_file_url = 'https://www.dropbox.com/s/6bgq8t6yextloqp/export.pkl?raw=1'
+#export_file_url = 'https://www.dropbox.com/s/6bgq8t6yextloqp/export.pkl?raw=1'
+export_file_url = 'https://drive.google.com/uc?export=download&id=1gtvZ9kVnWGaK9OrN6vDQA0METrTNCQBD'
 export_file_name = 'export.pkl'
 
-classes = ['black', 'grizzly', 'teddys']
-
+#classes = ['black', 'grizzly', 'teddys']
 #export_file_url = 'https://www.dropbox.com/s/v6cuuvddq73d1e0/export.pkl?raw=1'
-#export_file_url = 'https://www.dropbox.com/s/41z63x4hwtx90v8/stage-2.pth?dl=1'#
-#export_file_name = 'stage-2.pth'
-#classes = ['Coats', 'Dresses', 'Jeans', 'Shoes', 'Shorts', 'Skirts', 'Tops']
+
+classes = ['Coats', 'Dresses', 'Jeans', 'Shoes', 'Shorts', 'Skirts', 'Tops']
 
 path = Path(__file__).parent
 

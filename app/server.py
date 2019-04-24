@@ -8,14 +8,85 @@ from io import BytesIO
 from fastai import *
 from fastai.vision import *
 
-export_file_url = 'https://drive.google.com/uc?export=download&id=1-U9w-BnrlZz36QcrYfhtrJvX6AEAID7d'
-#export_file_url = 'https://drive.google.com/uc?export=download&id=1gtvZ9kVnWGaK9OrN6vDQA0METrTNCQBD'
-export_file_name = 'export-2.pkl'
+#export_file_url = 'https://drive.google.com/uc?export=download&id=1-U9w-BnrlZz36QcrYfhtrJvX6AEAID7d'
+#export_file_name = 'export-2.pkl'
+#classes = ['Coats', 'Dresses', 'Jeans', 'Shoes', 'Shorts', 'Skirts', 'Tops']
 
-#classes = ['black', 'grizzly', 'teddys']
-#export_file_url = 'https://www.dropbox.com/s/v6cuuvddq73d1e0/export.pkl?raw=1'
-
-classes = ['Coats', 'Dresses', 'Jeans', 'Shoes', 'Shorts', 'Skirts', 'Tops']
+export_file_url = 'https://drive.google.com/uc?export=download&id=1-dSEYIP-QFo3VimSBmC5ft7fRyV4UtJE'
+export_file_name = 'export-3.pkl'
+classes =['3/4_Sleeve',
+ 'A_Line',
+ 'Accessories',
+ 'Baby_Doll',
+ 'Back_Detail',
+ 'Ball_Gown',
+ 'Bell_Sleeve',
+ 'Below_the_Knee',
+ 'Belt',
+ 'Body-Con',
+ 'Choker',
+ 'Cold_Shoulder',
+ 'Cutout_Dress',
+ 'Denim',
+ 'Dress',
+ 'Embellished',
+ 'Empire_Waist',
+ 'Fit_&_Flare',
+ 'Floral',
+ 'Gown',
+ 'Halter',
+ 'Halter_Dress',
+ 'High_Low',
+ 'Jacket',
+ 'Jacket_Dress',
+ 'Knee_Length',
+ 'Lace_Dress',
+ 'Lace_Up',
+ 'Long',
+ 'Long_Sleeve',
+ 'Maternity',
+ 'Maxi',
+ 'Maxi_Dress',
+ 'Mermaid',
+ 'Midi',
+ 'Mini',
+ 'Mock_Neck',
+ 'Nursing',
+ 'Off_The_Shoulder',
+ 'One_Shoulder',
+ 'Outfit',
+ 'Pants',
+ 'Peasant',
+ 'Peplum_Dress',
+ 'Pump',
+ 'Ruffle',
+ 'Scarf',
+ 'Sequined',
+ 'Sheath',
+ 'Shift',
+ 'Shirt_Dress',
+ 'Shoe',
+ 'Short',
+ 'Short_Sleeve',
+ 'Shorts',
+ 'Skirts',
+ 'Sleeveless',
+ 'Slip_Dress',
+ 'Strapless',
+ 'Suit',
+ 'Sun_Dress',
+ 'Sweater',
+ 'Sweater_Dress',
+ 'Sweatshirt',
+ 'Swimsuit',
+ 'T-Shirt',
+ 'Top',
+ 'Trapeeze',
+ 'Two_Piece_Dress',
+ 'Ugly_Christmas',
+ 'Velvet',
+ 'Wedding_Dress',
+ 'Wrap_Dress']
 
 path = Path(__file__).parent
 

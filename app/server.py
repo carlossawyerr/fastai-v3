@@ -12,8 +12,8 @@ from fastai.vision import *
 #export_file_name = 'export-2.pkl'
 #classes = ['Coats', 'Dresses', 'Jeans', 'Shoes', 'Shorts', 'Skirts', 'Tops']
 
-export_file_url = 'https://drive.google.com/uc?export=download&id=1-2BKRF9rrQ-FjSUz3_8SIlVJmFrFJ0ko'
-export_file_name = 'export-5.pkl'
+export_file_url = 'https://drive.google.com/uc?export=download&id=1-7d_1Efqi5llfzVxAlGDNvR_wB90QEpe'
+export_file_name = 'export-7.pkl'
 classes =['100%_Cotton_Performance',
  '3/4_Sleeve',
  'A_Line',
